@@ -15,10 +15,10 @@ public class LoginPage extends BasePage {
 	@FindBy(how = How.ID, using = "password")
 	private static WebElement passwordField;
 
-	@FindBy(how = How.XPATH, using = "//button[normalize-space()='Log in']")
+	@FindBy(how = How.XPATH, using = "//button[@type='submit']")
 	private static WebElement btnLogin;
 
-	@FindBy(how = How.XPATH, using = "//a[@type='button']//span[@class='user-name'][normalize-space()='zied.hannachi.ext@groupama.com']")
+	@FindBy(how = How.XPATH, using = "//h6[normalize-space()='Dashboard']")
 	private static WebElement toolbarItemUser;
 
 	public LoginPage() {

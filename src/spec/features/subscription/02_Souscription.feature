@@ -1,5 +1,5 @@
 #language: fr
-@subscription @smoketest @tnr
+@login @smoketest @tnr
 Fonctionnalité: Souscription
   ETQ utilisateur je souhaite réaliser une souscription
 
@@ -10,7 +10,7 @@ Fonctionnalité: Souscription
     Et Je clique sur le bouton Connexion
     Et Je continue sans accepter les cookies
 
-  @subscription
+  @login
   Scénario: Je souhaite réaliser une souscription
     Quand Je clique sur le menu burger
     Et Je clique sur Administration IGES
